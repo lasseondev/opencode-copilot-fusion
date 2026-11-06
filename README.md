@@ -5,9 +5,6 @@
 
 Use GitHub Copilot Fusion in opencode. The plugin routes each turn to Fusion's model router. The unmodified request is always a valid call to one model. If routing fails, the turn runs as if the plugin were not installed.
 
-> [!IMPORTANT]
-> This plugin is unofficial. It uses Copilot's undocumented, private routing endpoints (`POST /auto`, `GET /meta`). They can change or stop working without notice. GitHub does not endorse this plugin. Use it at your own risk. Respect your organization's Copilot policies.
-
 ## What you get
 
 | Variant | Fusion tier | `/auto` tier | `reasoningEffort` | Plans |
